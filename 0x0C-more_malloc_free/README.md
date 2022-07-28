@@ -1,2 +1,2 @@
 ### C - Memory allocation
-More on allocating and freeing dynamic memory; utilizing 'malloc' and 'free'. 
+More on allocating and freeing dynamic memory; using 'malloc' and 'free'. 
