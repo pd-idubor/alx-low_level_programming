@@ -11,18 +11,18 @@
 int binary_search(int *array, size_t size, int value)
 {
 	size_t n, low;
-	
+
 	if (array == NULL)
 		return (-1);
 	size -= 1;
-        n = size;
-        low = 0;
+	n = size;
+	low = 0;
 
 	if (size == 0)
-        {
-                print_array(array, low, n);
-                if (array[size] == value)
-                        return (size);
+	{
+		print_array(array, low, n);
+		if (array[size] == value)
+			return (size);
 		return (-1);
 	}
 	return (value_search(array, size, low, n, value));
